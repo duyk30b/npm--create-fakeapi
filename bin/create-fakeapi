@@ -6,7 +6,8 @@ const repoName = process.argv[2] || "./"
 const gitURL = 'https://github.com/duyk30b/npm--create-fakeapi.git';
 const gitCloneCommand = `git clone ${gitURL} ${repoName}`;
 const installCommand = `cd ${repoName} && npm install`;
-const startCommand = `npm start`;
+const openWebCommand = `start http://localhost:8888`
+const startCommand = `cd ${repoName} && npm start`;
  
 try {
     console.log("-- Start Git Clone--");
@@ -15,7 +16,8 @@ try {
     console.log("-- StartInstall Dependencies--");
     execSync(installCommand);
     console.log("-- Complete Install Dependencies--");
-    console.log("-- Start Server On: http://localhost:7777");
+    execSync(openWebCommand);
+    console.log("-- Start Server On: http://localhost:8888");
     execSync(startCommand);
 } catch (error) {
     process.exit(-1);
