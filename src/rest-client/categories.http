@@ -1,0 +1,15 @@
+### Setting:https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+@baseUrl = http://localhost:{{$dotenv PORT}}/api
+@resourceName = categories
+
+### @name getAll
+GET {{baseUrl}}/{{resourceName}}
+
+### @name addNew
+POST {{baseUrl}}/{{resourceName}} 
+Content-Type: application/json
+
+{
+    "name": "SPORTS"
+}

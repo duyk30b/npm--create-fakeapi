@@ -1,0 +1,32 @@
+{
+    "name": "create-fakeapi",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server.js",
+    "bin": {
+        "@duycode/create-fakeapi": "bin/create-fakeapi",
+        "create-fakeapi": "bin/create-fakeapi"
+    },
+    "scripts": {
+        "dev": "nodemon src/server.js",
+        "start": "node src/reset-data.js && node src/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+		"access": "public"
+	},
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "faker": "^5.5.3",
+        "import-fresh": "^3.3.0",
+        "json-server": "^0.16.3",
+        "json-server-auth": "^2.1.0",
+        "query-string": "^7.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}

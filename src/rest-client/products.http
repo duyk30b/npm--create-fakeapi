@@ -1,0 +1,51 @@
+### Setting:https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+@baseUrl = http://localhost:{{$dotenv PORT}}/api
+@resourceName = products
+
+### @name getAll
+GET {{baseUrl}}/products
+
+### @name pagination
+GET {{baseUrl}}/products?_page=2&_limit=4
+
+### @name filter_exactly
+GET {{baseUrl}}/products?color=plum
+
+### @name filter_like
+GET {{baseUrl}}/products?name_like=tasty
+
+### @name filter_price
+GET {{baseUrl}}/products?price_gte=400&price_lte=600
+
+### @name sort
+GET {{baseUrl}}/products?_sort=price&_order=asc
+
+
+### @name addNew
+POST {{baseUrl}}/products 
+Content-Type: application/json
+
+{
+    "categoryID": "f8838212-7b9e-458d-8a05-67dc0e361be9",
+    "name": "Tasty Metal Fish",
+    "color": "purple",
+    "price": 123,
+    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "thumbnailUrl": "http://placeimg.com/400/400"
+}
+
+### @name updatebyID
+PATCH {{baseUrl}}/products/TAQMIwc
+Content-Type: application/json
+
+{
+    "name": "Tasty Metal Fish Update",
+    "color": "Red",
+    "price": 78
+}
+
+### @name remove
+DELETE {{baseUrl}}/products/0cffc686-2f71-41c7-93de-3197a593dfd6
+
+

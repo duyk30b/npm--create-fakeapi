@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    ol,
+    ul {
+        list-style: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    pre,
+    code {
+        font-family: monospace, monospace;
+    }
+
+    input {
+        outline: none;
+    }
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,
+        Cantarell, 'Helvetica Neue', sans-serif;
+    color: #3b4252;
+    background-color: #e9ecef;
+    min-height: 100vh;
+    font-size: 1.6rem;
+}
+
+#header {
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #198754;
+    color: white;
+
+    #logo {
+        font-weight: bold;
+    }
+
+    #navbar {
+        cursor: pointer;
+    }
+
+    #navbar:hover {
+        text-decoration: underline;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #198754;
+    color: white;
+}
+
+#content {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 100%;
+    max-width: 1200px;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    background-color: white;
+    @media screen and (max-width: 900px) {
+        flex-direction: column;
+    }
+    #path {
+        padding: 0 20px;
+        width: 50%;
+        @media screen and (max-width: 900px) {
+            width: 100%;
+        }
+        ul {
+            margin-top: 10px;
+            > p {
+                font-weight: bold;
+            }
+            li {
+                display: flex;
+                padding: 6px 0;
+                button {
+                    background-color: #198754;
+                    color: white;
+                    font-weight: bold;
+                    width: 70px;
+                    outline: none;
+                    border-color: white;
+                    border-radius: 2px;
+                    padding: 6px 5px;
+                    margin-right: 10px;
+                    box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.2);
+                    transition: opacity 0.2s ease;
+                    user-select: none;
+                    cursor: pointer;
+                    &.POST {
+                        background-color: #ffc107;
+                    }
+                    &.PATCH,
+                    &.PUT {
+                        background-color: #17a2b8;
+                    }
+                    &.DELETE {
+                        background-color: #dc3545;
+                    }
+                }
+                #link {
+                    cursor: pointer;
+                    flex: 1;
+                }
+
+                #link:hover {
+                    color: rgb(3, 67, 3);
+                    text-shadow: 4px 2px 8px grey;
+                }
+            }
+        }
+    }
+    #action {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        width: 50%;
+        @media screen and (max-width: 900px) {
+            width: 100%;
+        }
+        #request {
+            width: 100%;
+            h4 {
+                margin: 10px 0;
+            }
+            pre {
+                width: 100%;
+            }
+            button {
+                margin-top: 10px;
+                text-transform: uppercase;
+                font-weight: bold;
+                float: right;
+                padding: 5px 10px;
+                box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+                transition: opacity 0.2s ease;
+                user-select: none;
+                cursor: pointer;
+            }
+        }
+        #result {
+            width: 100%;
+            h4 {
+                margin: 10px 0;
+            }
+            pre {
+                width: 100%;
+            }
+        }
+        pre {
+            border: 1px solid #ccc;
+            font-size: 14px;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+            white-space: pre-wrap;
+            min-height: 180px;
+            max-height: 150vh;
+            overflow: auto;
+        }
+    }
+}
