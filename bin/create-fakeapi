@@ -7,7 +7,7 @@ const gitUrl = 'https://github.com/duyk30b/npm--create-fakeapi.git'
 
 const gitCloneCommand = `git clone ${gitUrl} ${dir}`
 const installCommand = `cd ${dir} && npm install`
-const startCommand = `cd ${dir} && npm run dev`
+const startCommand = `cd ${dir} && npm start`
 const openWebCommand = `start http://localhost:8888`
 
 try {
