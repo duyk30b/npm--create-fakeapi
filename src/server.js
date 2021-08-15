@@ -15,16 +15,6 @@ app.use(auth)
 app.use(jsonServer.bodyParser)
 app.db = router.db
 
-// Add custom routes before JSON Server router
-app.get('/echo', (req, res) => {
-    res.jsonp(req.query)
-})
-app.get('/refresh', (req, res) => {
-    const content = fakeData()
-    router.db.assign(content).write()
-    res.jsonp(content)
-})
-
 app.use((req, res, next) => {
     if (req.method === 'POST') {
         req.body.createdAt = Date.now()
@@ -54,14 +44,23 @@ router.render = (req, res) => {
     res.jsonp({data: res.locals.data})
 }
 
-// Use default router
-app.use('/api', router)
-
-app.get('/db', (req, res) => {
-    let all = importFresh('../db.json')
-    res.json(all)
+// List Router
+app.get('/echo', (req, res) => {
+    res.jsonp(req.query)
+})
+app.get('/refresh', (req, res) => {
+    const content = fakeData()
+    router.db.assign(content).write()
+    res.jsonp(content)
 })
 
+app.get('/db', (req, res) => {
+    let db = importFresh('../db.json')
+    res.json(db)
+})
+
+app.use('/api', router)
+
 app.listen(PORT, () => {
-    console.log(`Example app listening at http://localhost:${PORT}`)
+    console.log(`Server listening at: http://localhost:${PORT}`)
 })

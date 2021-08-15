@@ -1,223 +1,274 @@
 {
-  "categories": [
-    {
-      "id": "29f6c7aa-6667-4a32-bd24-f18f3770fb65",
-      "name": "Movies",
-      "createdAt": 1628961798929,
-      "updatedAt": 1628961798929
-    },
-    {
-      "id": "e0c04977-9e78-48c6-b6e5-97dd052aab3f",
-      "name": "Movies",
-      "createdAt": 1628961798929,
-      "updatedAt": 1628961798929
-    },
-    {
-      "id": "e24a5b7a-2559-48b4-afeb-fa8e0d8a8a0d",
-      "name": "Sports",
-      "createdAt": 1628961798929,
-      "updatedAt": 1628961798929
-    },
-    {
-      "id": "06b5de58-d496-4681-8ffd-33f248318f8a",
-      "name": "Home",
-      "createdAt": 1628961798929,
-      "updatedAt": 1628961798929
-    },
-    {
-      "id": "bce33aae-c314-4a58-b7a0-cbb22a2d72bc",
-      "name": "Kids",
-      "createdAt": 1628961798929,
-      "updatedAt": 1628961798929
-    }
-  ],
-  "products": [
-    {
-      "id": "78226c31-9177-4609-b585-8b2b9fc8002d",
-      "categoryID": "29f6c7aa-6667-4a32-bd24-f18f3770fb65",
-      "name": "Gorgeous Steel Soap",
-      "color": "mint green",
-      "price": 318,
-      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798929,
-      "updatedAt": 1628961798929
-    },
-    {
-      "id": "3522a6e3-d1b5-4c63-a895-3978761f9f6a",
-      "categoryID": "29f6c7aa-6667-4a32-bd24-f18f3770fb65",
-      "name": "Sleek Rubber Shoes",
-      "color": "azure",
-      "price": 317,
-      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798929,
-      "updatedAt": 1628961798929
-    },
-    {
-      "id": "c980e5e3-f880-4906-bd5e-759b3b0e0d71",
-      "categoryID": "29f6c7aa-6667-4a32-bd24-f18f3770fb65",
-      "name": "Unbranded Wooden Pants",
-      "color": "olive",
-      "price": 321,
-      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798929,
-      "updatedAt": 1628961798929
-    },
-    {
-      "id": "8d627df4-4191-4175-a4d6-0ac2148cc796",
-      "categoryID": "29f6c7aa-6667-4a32-bd24-f18f3770fb65",
-      "name": "Handmade Soft Bacon",
-      "color": "salmon",
-      "price": 448,
-      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798929,
-      "updatedAt": 1628961798929
-    },
-    {
-      "id": "1139692d-f07c-47aa-9d35-01bf7d00ad9d",
-      "categoryID": "e0c04977-9e78-48c6-b6e5-97dd052aab3f",
-      "name": "Generic Steel Keyboard",
-      "color": "maroon",
-      "price": 775,
-      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "36fcf7f4-0632-4c15-9858-78170d9f2720",
-      "categoryID": "e24a5b7a-2559-48b4-afeb-fa8e0d8a8a0d",
-      "name": "Licensed Rubber Bacon",
-      "color": "lavender",
-      "price": 673,
-      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "7c37f1e7-a04b-43ae-8257-a68f83a5b1f7",
-      "categoryID": "e24a5b7a-2559-48b4-afeb-fa8e0d8a8a0d",
-      "name": "Ergonomic Cotton Shirt",
-      "color": "plum",
-      "price": 925,
-      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "7bac55d2-6ef8-4e72-9439-4c8db64dfd2a",
-      "categoryID": "e24a5b7a-2559-48b4-afeb-fa8e0d8a8a0d",
-      "name": "Fantastic Concrete Table",
-      "color": "purple",
-      "price": 441,
-      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "f7f0e24f-e3bc-4a4c-b184-53871fd2a863",
-      "categoryID": "e24a5b7a-2559-48b4-afeb-fa8e0d8a8a0d",
-      "name": "Licensed Soft Sausages",
-      "color": "ivory",
-      "price": 598,
-      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "d9ac9653-ce74-491e-bb76-47ead8e5a280",
-      "categoryID": "06b5de58-d496-4681-8ffd-33f248318f8a",
-      "name": "Sleek Cotton Towels",
-      "color": "olive",
-      "price": 518,
-      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "8510b961-c30e-493a-ba80-77f62639670c",
-      "categoryID": "06b5de58-d496-4681-8ffd-33f248318f8a",
-      "name": "Refined Metal Keyboard",
-      "color": "green",
-      "price": 210,
-      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "b5eade26-4b07-4b6c-a501-56badd1e4080",
-      "categoryID": "06b5de58-d496-4681-8ffd-33f248318f8a",
-      "name": "Tasty Frozen Ball",
-      "color": "silver",
-      "price": 645,
-      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "d3543f63-ff3b-4b2f-b557-503ebbb08304",
-      "categoryID": "06b5de58-d496-4681-8ffd-33f248318f8a",
-      "name": "Small Steel Keyboard",
-      "color": "lavender",
-      "price": 698,
-      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "fe78d570-817b-4c5c-bc0d-5dfc3cf3f0cd",
-      "categoryID": "bce33aae-c314-4a58-b7a0-cbb22a2d72bc",
-      "name": "Small Plastic Soap",
-      "color": "sky blue",
-      "price": 108,
-      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "2b0ae872-e424-4ea9-900b-72a57e4c5574",
-      "categoryID": "bce33aae-c314-4a58-b7a0-cbb22a2d72bc",
-      "name": "Rustic Concrete Pants",
-      "color": "ivory",
-      "price": 107,
-      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "cf5b345d-b62f-4574-9145-fd3e09e9689f",
-      "categoryID": "bce33aae-c314-4a58-b7a0-cbb22a2d72bc",
-      "name": "Intelligent Metal Table",
-      "color": "red",
-      "price": 529,
-      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798930,
-      "updatedAt": 1628961798930
-    },
-    {
-      "id": "2a0df065-74bb-4e33-89f6-784f8390f1e8",
-      "categoryID": "bce33aae-c314-4a58-b7a0-cbb22a2d72bc",
-      "name": "Sleek Cotton Salad",
-      "color": "lavender",
-      "price": 757,
-      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-      "thumbnailUrl": "http://placeimg.com/400/400",
-      "createdAt": 1628961798931,
-      "updatedAt": 1628961798931
-    }
-  ]
+	"users": [
+		{
+			"id": "56793ca5-f981-48cf-b032-9e446f023f0f",
+			"email": "admin@gmail.com",
+			"password": "$2a$10$jvx3k/wyUTmwQj4pKLpss.H7o96Vj4MpUrTabMzGivKu3QueB/vm6",
+			"username": "Admin",
+			"name": "admin",
+			"_password": "123456"
+		},
+		{
+			"id": "83c550d0-fbaf-4d8d-893a-685aab8572e4",
+			"email": "user@gmail.com",
+			"username": "User",
+			"name": "user",
+			"password": "$2a$10$bFaffzDC/EwczIPkwB9ouu0Ie1hQg0FdGAArz9D7RCpArX836ZVPi",
+			"_password": "123456"
+		}
+	],
+	"categories": [
+		{
+			"id": "9a672302-93ec-4c64-aea5-a4ec7ffd1c19",
+			"name": "Baby",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "be884bf5-1858-4846-a17a-733589aafdf4",
+			"name": "Jewelery",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "164cde46-522c-4165-8970-f034707d9508",
+			"name": "Electronics",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "ae90fac0-13f8-4c52-a359-5e07654fdb4a",
+			"name": "Outdoors",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "c2e9c0f6-2b44-45d3-b991-5ef7180978f0",
+			"name": "Garden",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		}
+	],
+	"products": [
+		{
+			"id": "359ee967-95e6-44b0-8c4d-3a8f4138b400",
+			"categoryID": "9a672302-93ec-4c64-aea5-a4ec7ffd1c19",
+			"name": "Sleek Plastic Bacon",
+			"color": "green",
+			"price": 418,
+			"description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "9b7a1bf4-98e6-4b49-a5a9-2b8fea0d491c",
+			"categoryID": "9a672302-93ec-4c64-aea5-a4ec7ffd1c19",
+			"name": "Intelligent Granite Shoes",
+			"color": "salmon",
+			"price": 381,
+			"description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "0d32fd1d-b61e-43c8-ac1d-57c91981ace5",
+			"categoryID": "9a672302-93ec-4c64-aea5-a4ec7ffd1c19",
+			"name": "Incredible Plastic Car",
+			"color": "salmon",
+			"price": 856,
+			"description": "The Football Is Good For Training And Recreational Purposes",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "8c1e5f06-16ae-4a70-a9ce-8b444df244d8",
+			"categoryID": "9a672302-93ec-4c64-aea5-a4ec7ffd1c19",
+			"name": "Gorgeous Cotton Tuna",
+			"color": "red",
+			"price": 902,
+			"description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "7ebbd7b0-2d2a-4241-b288-6535ff47bcfa",
+			"categoryID": "be884bf5-1858-4846-a17a-733589aafdf4",
+			"name": "Small Fresh Hat",
+			"color": "cyan",
+			"price": 318,
+			"description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "d23a1d54-0826-4260-a0d9-a83df2d8d10d",
+			"categoryID": "be884bf5-1858-4846-a17a-733589aafdf4",
+			"name": "Intelligent Concrete Towels",
+			"color": "indigo",
+			"price": 338,
+			"description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "ad976d7f-87e6-4134-95fb-c8a33d7c6186",
+			"categoryID": "be884bf5-1858-4846-a17a-733589aafdf4",
+			"name": "Unbranded Fresh Bike",
+			"color": "ivory",
+			"price": 675,
+			"description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "89916921-3240-4467-be66-b8953215a8b7",
+			"categoryID": "be884bf5-1858-4846-a17a-733589aafdf4",
+			"name": "Incredible Granite Sausages",
+			"color": "sky blue",
+			"price": 568,
+			"description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "e21e838a-04b6-4952-8d6b-e623009494d2",
+			"categoryID": "164cde46-522c-4165-8970-f034707d9508",
+			"name": "Handcrafted Cotton Fish",
+			"color": "green",
+			"price": 299,
+			"description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "acc0292b-2e24-4149-9523-469f2380284a",
+			"categoryID": "164cde46-522c-4165-8970-f034707d9508",
+			"name": "Small Steel Keyboard",
+			"color": "grey",
+			"price": 4,
+			"description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "10c643f8-ec33-4e20-abf6-1323437158f3",
+			"categoryID": "164cde46-522c-4165-8970-f034707d9508",
+			"name": "Refined Fresh Computer",
+			"color": "green",
+			"price": 614,
+			"description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "f3189661-df9c-4745-bbf4-363eb42e1f20",
+			"categoryID": "164cde46-522c-4165-8970-f034707d9508",
+			"name": "Gorgeous Wooden Table",
+			"color": "yellow",
+			"price": 826,
+			"description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793937,
+			"updatedAt": 1629021793937
+		},
+		{
+			"id": "09672085-9184-433d-b694-891aa6f2d1f1",
+			"categoryID": "ae90fac0-13f8-4c52-a359-5e07654fdb4a",
+			"name": "Unbranded Cotton Shirt",
+			"color": "blue",
+			"price": 678,
+			"description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793938,
+			"updatedAt": 1629021793938
+		},
+		{
+			"id": "5d1f057e-c40f-48e4-878c-456ddac49604",
+			"categoryID": "ae90fac0-13f8-4c52-a359-5e07654fdb4a",
+			"name": "Awesome Granite Chips",
+			"color": "indigo",
+			"price": 812,
+			"description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793938,
+			"updatedAt": 1629021793938
+		},
+		{
+			"id": "04af3ef9-9842-496e-b517-dbe724eb6f69",
+			"categoryID": "ae90fac0-13f8-4c52-a359-5e07654fdb4a",
+			"name": "Tasty Metal Ball",
+			"color": "orange",
+			"price": 283,
+			"description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793938,
+			"updatedAt": 1629021793938
+		},
+		{
+			"id": "6de89450-874f-483f-b5be-09482bab4273",
+			"categoryID": "ae90fac0-13f8-4c52-a359-5e07654fdb4a",
+			"name": "Handmade Metal Cheese",
+			"color": "grey",
+			"price": 658,
+			"description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793938,
+			"updatedAt": 1629021793938
+		},
+		{
+			"id": "cef04135-afbf-4d63-b4af-de63ae459fb9",
+			"categoryID": "c2e9c0f6-2b44-45d3-b991-5ef7180978f0",
+			"name": "Incredible Steel Pizza",
+			"color": "green",
+			"price": 310,
+			"description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793938,
+			"updatedAt": 1629021793938
+		},
+		{
+			"id": "04760992-abcf-40ae-930f-d3bd1f7a32bf",
+			"categoryID": "c2e9c0f6-2b44-45d3-b991-5ef7180978f0",
+			"name": "Small Soft Gloves",
+			"color": "orchid",
+			"price": 964,
+			"description": "The Football Is Good For Training And Recreational Purposes",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793938,
+			"updatedAt": 1629021793938
+		},
+		{
+			"id": "bc313b7b-4041-4150-be06-8bf947d98ba2",
+			"categoryID": "c2e9c0f6-2b44-45d3-b991-5ef7180978f0",
+			"name": "Small Granite Sausages",
+			"color": "indigo",
+			"price": 327,
+			"description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793938,
+			"updatedAt": 1629021793938
+		},
+		{
+			"id": "21e15c6d-123f-4d4e-b826-ab0b91081840",
+			"categoryID": "c2e9c0f6-2b44-45d3-b991-5ef7180978f0",
+			"name": "Awesome Fresh Cheese",
+			"color": "purple",
+			"price": 656,
+			"description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+			"thumbnailUrl": "http://placeimg.com/400/400",
+			"createdAt": 1629021793938,
+			"updatedAt": 1629021793938
+		}
+	]
 }
