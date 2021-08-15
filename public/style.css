@@ -58,12 +58,23 @@ body {
   font-weight: bold;
 }
 
-#header #navbar {
+#header #navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header #navbar ul li {
+  padding: 0 10px;
   cursor: pointer;
 }
 
-#header #navbar:hover {
+#header #navbar ul li:hover {
   text-decoration: underline;
+}
+
+#header #navbar ul li:not(:first-child) {
+  border-left: 2px solid #fff;
 }
 
 footer {

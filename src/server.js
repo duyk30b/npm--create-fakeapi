@@ -2,7 +2,6 @@ require('dotenv').config()
 const jsonServer = require('json-server')
 const auth = require('json-server-auth')
 const queryString = require('query-string')
-const importFresh = require('import-fresh')
 const fakeData = require('./fake-data')
 const app = jsonServer.create()
 const router = jsonServer.router('db.json')
@@ -52,11 +51,6 @@ app.get('/refresh', (req, res) => {
     const content = fakeData()
     router.db.assign(content).write()
     res.jsonp(content)
-})
-
-app.get('/db', (req, res) => {
-    let db = importFresh('../db.json')
-    res.json(db)
 })
 
 app.use('/api', router)

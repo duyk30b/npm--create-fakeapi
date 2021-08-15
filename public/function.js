@@ -112,7 +112,7 @@ function Header(props) {
     const dispatch = ReactRedux.useDispatch()
 
     useEffect(() => {
-        fetch('./db')
+        fetch('/api/db')
             .then((res) => res.json())
             .then((res) => {
                 dispatch({type: 'setDB', payload: res})
@@ -130,8 +130,11 @@ function Header(props) {
     return (
         <div id='header'>
             <div id='logo'>FAKE API SERVER</div>
-            <div id='navbar' onClick={() => resetFakeData()}>
-                Reset Demo Data
+            <div id='navbar'>
+                <ul>
+                    <li onClick={() => window.open('/api/db', '_blank').focus()}>Show Database</li>
+                    <li onClick={() => resetFakeData()}>Reset Demo Data</li>
+                </ul> 
             </div>
         </div>
     )
@@ -150,14 +153,7 @@ function Content(props) {
 `
     )
     const [result, setResult] = useState({})
-    // const [db, setDB] = useState({})
     const [id, setID] = useState('')
-    // useEffect(() => {
-    //     window
-    //         .fetch('./db')
-    //         .then((res) => res.json())
-    //         .then((res) => setDB(res))
-    // }, [])
 
     const selectRequest = ({pathname, method, body}) => {
         pathname = state.host + pathname

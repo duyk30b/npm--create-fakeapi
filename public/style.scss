@@ -50,11 +50,19 @@ body {
     }
 
     #navbar {
-        cursor: pointer;
-    }
-
-    #navbar:hover {
-        text-decoration: underline;
+        ul {
+            display: flex;
+            li {
+                padding: 0 10px;
+                cursor: pointer;
+                &:hover {
+                    text-decoration: underline;
+                }
+                &:not(:first-child){
+                    border-left: 2px solid #fff;
+                }
+            }
+        }
     }
 }
 
