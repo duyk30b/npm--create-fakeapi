@@ -1,0 +1,1 @@
+web: node src/reset-db.js && node src/server.js

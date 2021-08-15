@@ -131,7 +131,7 @@ function Header(props) {
         <div id='header'>
             <div id='logo'>FAKE API SERVER</div>
             <div id='navbar' onClick={() => resetFakeData()}>
-                Reset Fake Data
+                Reset Demo Data
             </div>
         </div>
     )
