@@ -123,7 +123,7 @@ function Header(props) {
             .then((res) => res.json())
             .then((res) => {
                 dispatch({type: 'setDB', payload: res})
-                alert("The database has just been updated")
+                alert('The database has just been updated')
             })
     }
 
@@ -206,7 +206,16 @@ ${config}
                     {Object.keys(state.db).map((item, index) => (
                         <li key={index} onClick={(e) => selectRequest({pathname: '/api/' + item})}>
                             <button>GET</button>
-                            <p id='link'>{location.origin + '/api/' + item}</p>
+                            <p
+                                id='link'
+                                onMouseDown={(e) => {
+                                    if (e.button === 1) {
+                                        window.open('/api/' + item, '_blank').focus()
+                                    }
+                                }}
+                            >
+                                {location.origin + '/api/' + item}
+                            </p>
                         </li>
                     ))}
                 </ul>
@@ -215,10 +224,7 @@ ${config}
                     {state.auth.map((item, index) => (
                         <li key={index} onClick={(e) => selectRequest(item)}>
                             <button className={item.method}>{item.method}</button>
-                            <p id='link'>
-                                {state.host + item.pathname}
-                                {['PATCH', 'PUT', 'DELETE'].includes(item.method) && <input />}
-                            </p>
+                            <p id='link'>{state.host + item.pathname}</p>
                         </li>
                     ))}
                 </ul>
@@ -228,7 +234,16 @@ ${config}
                         {state.products.map((item, index) => (
                             <li key={index} onClick={(e) => selectRequest(item)}>
                                 <button className={item.method}>{item.method}</button>
-                                <p id='link'>
+                                <p
+                                    id='link'
+                                    onMouseDown={(e) => {
+                                        if (e.button === 1 && item.method == 'GET') {
+                                            window
+                                                .open(state.host + item.pathname, '_blank')
+                                                .focus()
+                                        }
+                                    }}
+                                >
                                     {state.host + item.pathname}
                                     {['PATCH', 'PUT', 'DELETE'].includes(item.method) && (
                                         <input
