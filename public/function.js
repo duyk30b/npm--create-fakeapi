@@ -123,6 +123,7 @@ function Header(props) {
             .then((res) => res.json())
             .then((res) => {
                 dispatch({type: 'setDB', payload: res})
+                alert("The database has just been updated")
             })
     }
 
